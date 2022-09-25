@@ -6,7 +6,8 @@ import { Cursor, useTypewriter } from "react-simple-typewriter";
 export default function Home() {
   const [text, count] = useTypewriter({
     words: [
-      "We are busy creating your new Bank.",
+      "We are busy creating...",
+      "your new Bank,",
       "vabank.me",
       "Be patient,",
       "we will let you know once done."
