@@ -17,7 +17,7 @@ export default function Home() {
   });
 
   return (
-    <div className="bg-black text-white h-screen flex flex-col items-center justify-center">
+    <div className="bg-black text-white w-screen h-screen flex flex-col items-center justify-center">
       <Head>
         <title>VaBank | LaBank - Lord&apos;s Bank</title>
         <meta name="description" content="VaBank & LaBank - Lord's bank" />
@@ -25,7 +25,7 @@ export default function Home() {
       </Head>
 
       <main className="flex items-center justify-center w-[90%] md:w-[50%] md:p-20">
-        <h1 className="text-6xl md:text-6xl lg:text-7xl font-semibold">
+        <h1 className="text-5xl md:text-6xl lg:text-7xl font-semibold">
           <span className="mr-3">{text}</span>
           <Cursor cursorColor="#6e2fd2" />
         </h1>
