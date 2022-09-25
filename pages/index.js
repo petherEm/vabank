@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <div className="bg-black text-white h-screen flex flex-col items-center justify-center">
       <Head>
-        <title>VaBank | LaBank - Lord's Bank</title>
+        <title>VaBank | LaBank - Lord&apos;s Bank</title>
         <meta name="description" content="VaBank & LaBank - Lord's bank" />
         <link rel="icon" href="/logo.ico" />
       </Head>
